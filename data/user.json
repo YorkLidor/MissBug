@@ -1,0 +1,112 @@
+[
+  {
+    "_id": "u103",
+    "username": "ash",
+    "fullname": "Ash Ketchum",
+    "password": "pikachu123",
+    "score": 90,
+    "isAdmin": false
+  },
+  {
+    "_id": "u104",
+    "username": "misty",
+    "fullname": "Misty Waterflower",
+    "password": "totodile456",
+    "score": 82,
+    "isAdmin": false
+  },
+  {
+    "_id": "u105",
+    "username": "brock",
+    "fullname": "Brock Harrison",
+    "password": "onix789",
+    "score": 75,
+    "isAdmin": false
+  },
+  {
+    "_id": "u106",
+    "username": "may",
+    "fullname": "May Maple",
+    "password": "skitty321",
+    "score": 88,
+    "isAdmin": false
+  },
+  {
+    "_id": "u107",
+    "username": "max",
+    "fullname": "Max Maple",
+    "password": "snorunt654",
+    "score": 76,
+    "isAdmin": false
+  },
+  {
+    "_id": "u108",
+    "username": "dawn",
+    "fullname": "Dawn Berlitz",
+    "password": "buneary987",
+    "score": 85,
+    "isAdmin": false
+  },
+  {
+    "_id": "u109",
+    "username": "iris",
+    "fullname": "Iris",
+    "password": "emolga246",
+    "score": 92,
+    "isAdmin": false
+  },
+  {
+    "_id": "u110",
+    "username": "cilan",
+    "fullname": "Cilan",
+    "password": "pansage369",
+    "score": 79,
+    "isAdmin": false
+  },
+  {
+    "_id": "u111",
+    "username": "bianca",
+    "fullname": "Bianca",
+    "password": "minccino159",
+    "score": 81,
+    "isAdmin": false
+  },
+  {
+    "_id": "111",
+    "username": "matan",
+    "fullname": "matan",
+    "password": "matan",
+    "score": 81,
+    "isAdmin": false
+  },
+  {
+    "_id": "222",
+    "username": "lidor",
+    "fullname": "lidor",
+    "password": "lidor",
+    "score": 81,
+    "isAdmin": false
+  },
+  {
+    "_id": "u112",
+    "username": "trip",
+    "fullname": "Trip",
+    "password": "snivy753",
+    "score": 95,
+    "isAdmin": false
+  },
+  {
+    "_id": "2BhB0",
+    "fullname": "matani",
+    "username": "matani",
+    "password": "matani",
+    "isAdmin": true
+  },
+  {
+    "_id": "wKArl",
+    "fullname": "aaa",
+    "username": "aaa",
+    "password": "aaa",
+    "isAdmin": true
+  }
+]

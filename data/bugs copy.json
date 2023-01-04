@@ -1,0 +1,194 @@
+[
+  {
+    "title": "Pikachu's thunderbolt malfunctioning",
+    "description": "Pikachu's thunderbolt attack has been misfiring and causing some serious damage to our gym battles. Please fix asap!",
+    "severity": 8,
+    "createdAt": 1565012873000,
+    "labels": [
+      "urgent",
+      "attack",
+      "Pikachu"
+    ],
+    "_id": "Pika-Thunderbolt-002"
+  },
+  {
+    "title": "Charizard's tail on fire!",
+    "description": "Our beloved Charizard's tail has caught on fire! Quick, someone get a Squirtle to put it out!",
+    "severity": 10,
+    "createdAt": 1564996218000,
+    "labels": [
+      "emergency",
+      "fire",
+      "Charizard"
+    ],
+    "_id": "Chari-Tail-001"
+  },
+  {
+    "title": "Snorlax blocking office doorway",
+    "description": "Snorlax has decided to take a nap in the middle of the office doorway, causing a major traffic jam. Can someone please wake him up?",
+    "severity": 5,
+    "createdAt": 1565045999000,
+    "labels": [
+      "medium",
+      "doorway",
+      "Snorlax"
+    ],
+    "_id": "Snorlax-Nap-004"
+  },
+  {
+    "title": "Jigglypuff singing loudly",
+    "description": "There's a Jigglypuff singing at the top of its lungs and it's driving everyone in the office crazy. Please send a team to catch it and return it to its trainer before it gives us all permanent hearing damage.",
+    "severity": 2,
+    "createdAt": 1564731118571,
+    "labels": [
+      "Jigglypuff",
+      "noise"
+    ],
+    "_id": "Jkilo"
+  },
+  {
+    "title": "Squirtle flooding the bathroom",
+    "description": "There's a Squirtle in the bathroom and it's causing a flood. Water is spilling out into the hallway and it's a mess. Please send a team to catch it and return it to its trainer before it causes any more damage.",
+    "severity": 4,
+    "createdAt": 1564731126571,
+    "labels": [
+      "Squirtle",
+      "flood"
+    ],
+    "_id": "Nmbvc"
+  },
+  {
+    "title": "Jigglypuff serenading the office!",
+    "description": "Jigglypuff has taken up residence in the office and won't stop singing. Please send a team to remove it before our ears bleed.",
+    "severity": 3,
+    "createdAt": 1672686574840,
+    "labels": [
+      "pokemon",
+      "annoying"
+    ],
+    "_id": "Z5jKm"
+  },
+  {
+    "title": "Psyduck causing brain freeze",
+    "description": "We've discovered that a Psyduck's presence is causing a sudden outbreak of brain freeze in the office. Please send a team to investigate and put an end to this icy misery.",
+    "severity": 2,
+    "createdAt": 1672686574840,
+    "labels": [
+      "pokemon",
+      "brain freeze"
+    ],
+    "_id": "C9Xb7"
+  },
+  {
+    "title": "Snorlax blocking the hallway",
+    "description": "A Snorlax has taken up residence in the middle of the hallway and refuses to move. Please send a team to relocate it before it causes a traffic jam.",
+    "severity": 4,
+    "createdAt": 1672686574840,
+    "labels": [
+      "pokemon",
+      "obstruction"
+    ],
+    "_id": "S1pJ4"
+  },
+  {
+    "title": "Squirtle flooding the bathroom",
+    "description": "A Squirtle has somehow managed to turn on all the faucets in the bathroom, causing a flood. Please send a team to capture it and stop the waterworks.",
+    "severity": 1,
+    "createdAt": 1672686574840,
+    "labels": [
+      "pokemon",
+      "flood"
+    ],
+    "_id": "J4Z7c"
+  },
+  {
+    "title": "Goldeen causing a commotion",
+    "description": "A Goldeen has been causing a ruckus in the office, flopping around and knocking things over. Please send a team to tranquilize it and restore peace.",
+    "severity": 5,
+    "createdAt": 1672686574840,
+    "labels": [
+      "pokemon",
+      "mayhem"
+    ],
+    "_id": "V7D9F"
+  },
+  {
+    "title": "Drowzee putting the office to sleep",
+    "description": "A Drowzee has been spotted wandering the office, and people are starting to nod off wherever they stand. Please send a team to capture it before productivity grinds to a halt.",
+    "severity": 3,
+    "createdAt": 1672686574840,
+    "labels": [
+      "pokemon",
+      "sleep"
+    ],
+    "_id": "K6L8H"
+  },
+  {
+    "title": "Pidgey infestation in the server room",
+    "description": "We've discovered a Pidgey nest in the server room and they're causing all sorts of problems. Please send a team to remove them before they cause a data breach.",
+    "severity": 4,
+    "createdAt": 1672686574840,
+    "labels": [
+      "pokemon",
+      "infestation"
+    ],
+    "_id": "E7M9G"
+  },
+  {
+    "title": "Caterpie eating all the office plants",
+    "description": "A Caterpie has been feasting on all the office plants and we're running out of greenery. Please send a team to capture it and save our foliage.",
+    "severity": 2,
+    "createdAt": 1672686574840,
+    "labels": [
+      "pokemon",
+      "plants"
+    ],
+    "_id": "D8N0F"
+  },
+  {
+    "title": "Koffing filling the office with gas",
+    "description": "A Koffing has been releasing gas all over the office, and it's getting hard to breathe. Please send a team to capture it and ventilate the area.",
+    "severity": 5,
+    "createdAt": 1672686574840,
+    "labels": [
+      "pokemon",
+      "gas"
+    ],
+    "_id": "F9O1G"
+  },
+  {
+    "title": "Abra teleporting objects around the office",
+    "description": "An Abra has been teleporting objects around the office, causing chaos. Please send a team to capture it and put an end to the magic tricks.",
+    "severity": 1,
+    "createdAt": 1672686574840,
+    "labels": [
+      "pokemon",
+      "teleportation"
+    ],
+    "_id": "G2P3H"
+  },
+  {
+    "title": "Gengar's shadow ball causing server lag",
+    "description": "Gengar's shadow ball attack is causing some serious lag on our servers. Can someone please fix this ghostly issue?",
+    "severity": 7,
+    "createdAt": 1565029437000,
+    "labels": [
+      "high",
+      "server",
+      "Gengar"
+    ],
+    "_id": "Gengar-Shadow-003"
+  },
+  {
+    "title": "Jynx's seductive singing causing distraction",
+    "description": "Jynx has been singing her seductive melodies in the office and it's causing major distraction among the employees. Can someone please make her stop?",
+    "severity": 3,
+    "createdAt": 1565062561000,
+    "labels": [
+      "low",
+      "singing",
+      "Jynx"
+    ],
+    "_id": "Jynx-Seduction-005"
+  }
+]

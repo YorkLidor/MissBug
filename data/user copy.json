@@ -1,0 +1,86 @@
+[
+  {
+  "_id": "u103",
+  "username": "ash",
+  "fullname": "Ash Ketchum",
+  "password": "pikachu123",
+  "score": 90
+  },
+  {
+  "_id": "u104",
+  "username": "misty",
+  "fullname": "Misty Waterflower",
+  "password": "totodile456",
+  "score": 82
+  },
+  {
+  "_id": "u105",
+  "username": "brock",
+  "fullname": "Brock Harrison",
+  "password": "onix789",
+  "score": 75
+  },
+  {
+  "_id": "u106",
+  "username": "may",
+  "fullname": "May Maple",
+  "password": "skitty321",
+  "score": 88
+  },
+  {
+  "_id": "u107",
+  "username": "max",
+  "fullname": "Max Maple",
+  "password": "snorunt654",
+  "score": 76
+  },
+  {
+  "_id": "u108",
+  "username": "dawn",
+  "fullname": "Dawn Berlitz",
+  "password": "buneary987",
+  "score": 85
+  },
+  {
+  "_id": "u109",
+  "username": "iris",
+  "fullname": "Iris",
+  "password": "emolga246",
+  "score": 92
+  },
+  {
+  "_id": "u110",
+  "username": "cilan",
+  "fullname": "Cilan",
+  "password": "pansage369",
+  "score": 79
+  },
+  {
+  "_id": "u111",
+  "username": "bianca",
+  "fullname": "Bianca",
+  "password": "minccino159",
+  "score": 81
+  },
+  {
+  "_id": "111",
+  "username": "matan",
+  "fullname": "matan",
+  "password": "matan",
+  "score": 81
+  },
+  {
+  "_id": "222",
+  "username": "lidor",
+  "fullname": "lidor",
+  "password": "lidor",
+  "score": 81
+  },
+  {
+  "_id": "u112",
+  "username": "trip",
+  "fullname": "Trip",
+  "password": "snivy753",
+  "score": 95
+  }
+  ]

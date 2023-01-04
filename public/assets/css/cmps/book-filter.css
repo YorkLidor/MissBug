@@ -1,0 +1,30 @@
+.bug-filter{
+    background-color: var(--clr2bg);
+    color: var(--clr1);
+    width: 100%;
+}
+
+.bug-filter .container>*{
+    margin: 0 1em;
+}
+
+.bug-filter form>*{
+    margin-inline-end: 1em;
+}
+
+.bug-filter input{
+    padding: .6em 1em;
+    border: 1px solid var(--clr1);
+    border-radius: 4px;
+}
+
+.bug-filter button{
+    background-color: var(--clr1bg);
+    border: 1px solid var(--clr1bg);
+    color: whitesmoke;
+}
+
+.bug-filter button:hover{
+    background-color: var(--clr2bg);
+    color: var(--clr1bg);
+}

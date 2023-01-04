@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+html {}
+
+body {
+  margin: 0;
+  color: var(--gray3);
+  font-family: 'Lekton', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: .3em 0 .3em;
+}
+
+p {
+  margin: 0 0 1em;
+  font-family: 'Lekton', sans-serif;
+  word-spacing: -.2em;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+/* Dont stretch my Media */
+img,
+embed,
+video,
+object {
+  max-width: 100%
+}
+
+/* Simple and useful CSS Debugging Technique */
+.debug * {
+  outline: 1px solid gold
+}

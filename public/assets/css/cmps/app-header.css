@@ -1,0 +1,16 @@
+.app-header {
+  background-color: var(--clr1bg);
+  color: var(--clr2);
+}
+
+.app-header .container{
+  display: flex;
+  width: 100%;
+}
+
+@media(max-width: 720px) {
+  .app-header {
+    /* color: var(--clr2bg); */
+  }
+}
+

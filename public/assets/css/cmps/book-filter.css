@@ -1,30 +1,49 @@
-.bug-filter{
+.bug-filter {
     background-color: var(--clr2bg);
     color: var(--clr1);
     width: 100%;
 }
 
-.bug-filter .container>*{
+.bug-filter .container>* {
     margin: 0 1em;
 }
 
-.bug-filter form>*{
+.bug-filter form>* {
     margin-inline-end: 1em;
 }
 
-.bug-filter input{
+.bug-filter input {
     padding: .6em 1em;
     border: 1px solid var(--clr1);
     border-radius: 4px;
 }
 
-.bug-filter button{
+.bug-filter button {
     background-color: var(--clr1bg);
     border: 1px solid var(--clr1bg);
     color: whitesmoke;
 }
 
-.bug-filter button:hover{
+.bug-filter button:hover {
     background-color: var(--clr2bg);
     color: var(--clr1bg);
+}
+
+.filter-form-container-1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.filter-form-container-2 {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.pageing-buttons {
+    display: flex;
+    justify-content: space-between;
 }

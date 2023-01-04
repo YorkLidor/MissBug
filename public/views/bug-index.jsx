@@ -101,19 +101,20 @@ export function BugIndex() {
 
     return (
         <main className='bug-index'>
-            <h3>Bugs App</h3>
             <main>
-                <button onClick={() => setOpenModal(!openModal)}>Add Bug ⛐</button>
-                <button onClick={() => {
-                    bugService.getPDF()
-                    showSuccessMsg('Bug updated')
-                }}>Export ⛐ to PDF</button>
+                <div className='top-buttons'>
+                    <button onClick={() => setOpenModal(!openModal)}>Add Bug ⛐</button>
+                    <button onClick={() => {
+                        bugService.getPDF()
+                        showSuccessMsg('Bug updated')
+                    }}>Export ⛐ to PDF</button>
+                </div>
                 <div>
                     <BugFilter onSetFilter={onSetFilter} maxPages={maxPages} />
                 </div>
                 {openModal && <BugEdit newBug={setNewBug} onAddBug={onAddBug} isOpen={openModal} />}
                 <BugList bugs={bugs} onRemoveBug={onRemoveBug} onEditBug={onEditBug} />
             </main>
-        </main>
+        </main >
     )
 }

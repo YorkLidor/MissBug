@@ -3,14 +3,20 @@
   color: var(--clr2);
 }
 
-.app-header .container{
+.app-header .container {
   display: flex;
   width: 100%;
+  justify-content: space-around;
+  align-items: center;
 }
 
-@media(max-width: 720px) {
-  .app-header {
-    /* color: var(--clr2bg); */
-  }
+.main-nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.main-nav a:hover {
+  color: black;
+  font-weight: 700;
 }
 

@@ -11,7 +11,7 @@ export function BugList({ bugs, onRemoveBug, onEditBug }) {
                     <button onClick={() => { onRemoveBug(bug) }}>x</button>
                     <button onClick={() => { onEditBug(bug) }}>Edit</button>
                 </div>
-                <Link to={`/bug/${bug._id}`}>Details</Link>
+                <Link className="details-link" to={`/bug/${bug._id}`}>Details</Link>
             </li>)}
     </ul>
 }

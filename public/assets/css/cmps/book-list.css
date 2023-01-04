@@ -1,7 +1,9 @@
-.bug-list{
+
+.bug-list {
     padding: 15px 10px;
     list-style: none;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(279px, 1fr));
     gap: 15px;
+    text-align: center;
 }

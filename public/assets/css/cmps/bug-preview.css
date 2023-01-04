@@ -2,12 +2,16 @@
     padding: 0.3em;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     height: 100%;
     position: relative;
     max-width: 300px;
     margin: 0 auto;
     font-family: 'Lekton', sans-serif;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 47px;
+    background-color: #f7f9fc;
+
 }
 
 .bug-preview a:hover {
@@ -43,13 +47,13 @@
 }
 
 .bug-preview img {
-    max-height: 40px;
+    max-height: 50px;
     margin-bottom: .8em;
 }
 
 .bug-preview footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 100%;
 
 }
@@ -74,6 +78,10 @@
     bottom: 127px;
     left: 5px;
     font-weight: 600;
+}
+
+.details-link{
+    font-weight: 900;
 }
 
 @media (max-width: 421px) {

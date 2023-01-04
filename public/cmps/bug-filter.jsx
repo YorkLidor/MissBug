@@ -47,59 +47,65 @@ export function BugFilter({ onSetFilter, maxPages }) {
         <div className='container' >
 
             <form onSubmit={onSubmitFilter}>
-                <label htmlFor="title">Title:</label>
-                <input type="text"
-                    id="title"
-                    name="title"
-                    placeholder="By title"
-                    value={filterBugs.title}
-                    onChange={handleChange}
-                />
+                <div className="filter-form-container-1">
 
-                <label htmlFor="description">Description:</label>
-                <input type="text"
-                    id="description"
-                    name="description"
-                    placeholder="By description..."
-                    value={filterBugs.description}
-                    onChange={handleChange}
-                />
+                    <label htmlFor="title">Title:</label>
+                    <input type="text"
+                        id="title"
+                        name="title"
+                        placeholder="By title"
+                        value={filterBugs.title}
+                        onChange={handleChange}
+                    />
 
-                <label htmlFor="title">Severity:</label>
-                <input type="number"
-                    id="severity"
-                    name="severity"
-                    placeholder="By severity..."
-                    value={filterBugs.severity}
-                    onChange={handleChange}
-                />
+                    <label htmlFor="description">Description:</label>
+                    <input type="text"
+                        id="description"
+                        name="description"
+                        placeholder="By description..."
+                        value={filterBugs.description}
+                        onChange={handleChange}
+                    />
 
-                <label htmlFor="labels">Label:</label>
-                <select name="labels" id="is-read-filter" type='text' onChange={handleChange}>
-                    <option value=''>All</option>
-                    <option value='js'>Js</option>
-                    <option value='css'>Css</option>
-                    <option value='react'>React</option>
-                </select>
+                    <label htmlFor="title">Severity:</label>
+                    <input type="number"
+                        id="severity"
+                        name="severity"
+                        placeholder="By severity..."
+                        value={filterBugs.severity}
+                        onChange={handleChange}
+                    />
+                </div>
 
-                <label htmlFor="sort"> Sort by:</label>
-                <select name="sort" id="is-read-filter" type='text' onChange={handleChange}>
-                    <option value=''>All</option>
-                    <option value='title'>title</option>
-                    <option value='description'>description</option>
-                    <option value='severity'>severity</option>
-                </select>
+                <div className="filter-form-container-2">
+                    <label htmlFor="labels">Label:</label>
+                    <select name="labels" id="is-read-filter" type='text' onChange={handleChange}>
+                        <option value=''>All</option>
+                        <option value='js'>Js</option>
+                        <option value='css'>Css</option>
+                        <option value='react'>React</option>
+                    </select>
 
-                <label htmlFor="order">Sort order</label>
-                <select name="order" id="is-read-filter" type='text' onChange={handleChange}>
-                    <option value={1}>Up order</option>
-                    <option value={-1}>Down order</option>
-                </select>
-                <button>Filter</button>
+                    <label htmlFor="sort"> Sort by:</label>
+                    <select name="sort" id="is-read-filter" type='text' onChange={handleChange}>
+                        <option value=''>All</option>
+                        <option value='title'>title</option>
+                        <option value='description'>description</option>
+                        <option value='severity'>severity</option>
+                    </select>
+
+                    <label htmlFor="order">Sort order</label>
+                    <select name="order" id="is-read-filter" type='text' onChange={handleChange}>
+                        <option value={1}>Up order</option>
+                        <option value={-1}>Down order</option>
+                    </select>
+                    <button>Filter</button>
+                </div>
             </form>
-
-            <button ref={elPrevBtn} onClick={(ev) => onSetPage(ev, -1)}>Prev</button>
-            <button ref={elNextBtn} onClick={(ev) => onSetPage(ev, 1)}>Next</button>
+            <div className="pageing-buttons">
+                <button ref={elPrevBtn} onClick={(ev) => onSetPage(ev, -1)}>Prev</button>
+                <button ref={elNextBtn} onClick={(ev) => onSetPage(ev, 1)}>Next</button>
+            </div>
         </div>
     </section>
 }
